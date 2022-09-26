@@ -1,10 +1,10 @@
 // TASK 1
-let name = prompt ('Ваше имя'),
-age = +prompt ('Ваш возраст'), 
-city = prompt ('Город проживания'), 
-phone = prompt ('Ваш номер телефона'), 
-email = prompt ('Ваша электронная почта'), 
-company = prompt ('Место работы');
+let name = prompt ('Ваше имя', 'Иванов Иван Иванович'),
+age = +prompt ('Ваш возраст', '28'), 
+city = prompt ('Город проживания', 'Минск'), 
+phone = prompt ('Ваш номер телефона', '+375291506253'), 
+email = prompt ('Ваша электронная почта', 'email@mail.ru'), 
+company = prompt ('Место работы', 'Apple');
 document.write (
 	'Меня зовут ' + name + '. Мне ' 
 	+ age + ' лет.<br>Я проживаю в городе ' 
