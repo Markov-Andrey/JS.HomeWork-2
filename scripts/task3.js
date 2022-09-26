@@ -1,6 +1,5 @@
 // TASK 3
 let number = prompt ('Введите 6-значное число');
-console.log (number.substr(0,3))
 if (
 	+number.substr(0,1) + +number.substr(1,1) + +number.substr(2,1) == 
 	+number.substr(3,1) + +number.substr(4,1) + +number.substr(5,1)
