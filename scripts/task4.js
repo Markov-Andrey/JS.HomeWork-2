@@ -1,5 +1,5 @@
 // TASK 4
-let numberTask4;
+let a;
 a = 1;
 if (
 	a > 0
