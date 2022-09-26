@@ -19,6 +19,13 @@ div {
 	margin: 5px;
 	color: white;
 }
+.fail {
+	display: inline-block;
+	background-color: red;
+	padding: 2px 15px;
+	margin: 5px;
+	color: white;
+}
 h1 {
 	text-align: center;
 	display: block;
