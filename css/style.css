@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+	margin: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+div {
+	margin: 5px 50px;
+	padding: 5px;
+	border: 1px solid black;
+}
+.complete {
+	display: inline-block;
+	background-color: green;
+	padding: 2px 15px;
+	margin: 5px;
+	color: white;
+}
+h1 {
+	text-align: center;
+	display: block;
+	margin: 3px 40%;
+	padding: 2px 15px;
+	background-color: #5c98ff;
+}
