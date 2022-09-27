@@ -54,3 +54,49 @@ switch(true) {
 	+ '<img src="images/01.jpg" alt="Winter">');
 	break;
 }
+
+// TASK 10 АЛЬТЕРНАТИВНОЕ РЕШЕНИЕ (через 3 массива и цикл)
+/*
+function randomInteger1(min, max) {
+  let m = min + Math.random() * (max + 1 - min);
+  return Math.floor(m);
+}
+m = randomInteger1(1, 356);
+let month = [
+	'Январь', 'Февраль', 'Март', 
+	'Апрель', 'Май', 'Июнь', 
+	'Июль', 'Август', 'Сентябрь', 
+	'Октябрь', 'Ноябрь', 'Декабрь'
+	];
+let season = [
+	'зима', 'зима', 
+	'весна', 'весна', 'весна', 
+	'лето', 'лето', 'лето', 
+	'осень', 'осень', 'осень', 
+	'зима'
+];
+let img = [
+	'<img src="images/01.jpg" alt="Winter">', 
+	'<img src="images/01.jpg" alt="Winter">', 
+	'<img src="images/02.jpg" alt="Spring">', 
+	'<img src="images/02.jpg" alt="Spring">', 
+	'<img src="images/02.jpg" alt="Spring">', 
+	'<img src="images/03.jpg" alt="Summer">', 
+	'<img src="images/03.jpg" alt="Summer">', 
+	'<img src="images/03.jpg" alt="Summer">', 
+	'<img src="images/03.jpg" alt="Autumn">', 
+	'<img src="images/03.jpg" alt="Autumn">', 
+	'<img src="images/03.jpg" alt="Autumn">', 
+	'<img src="images/01.jpg" alt="Winter">'
+];
+
+let i = 1;
+while (i <= 12) {
+	if ((m > 31 * i - 31) && (m <= 31 * i)) {
+		document.write ('<p>День ' + m + ' - ' + month [i-1] + ', ' 
+		+ season [i-1] + '</p>' 
+		+ img [i-1]);
+	}
+	i++
+}
+*/
