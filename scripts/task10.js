@@ -39,15 +39,15 @@ switch(true) {
 	break;
 	case m <= 31 * 9:
 	document.write ('<p>День ' + m + ' - Сентябрь, осень</p>'
-	+ '<img src="images/03.jpg" alt="Autumn">');
+	+ '<img src="images/04.jpg" alt="Autumn">');
 	break;
 	case m <= 31 * 10:
 	document.write ('<p>День ' + m + ' - Октябрь, осень</p>'
-	+ '<img src="images/03.jpg" alt="Autumn">');
+	+ '<img src="images/04.jpg" alt="Autumn">');
 	break;
 	case m <= 31 * 11:
 	document.write ('<p>День ' + m + ' - Ноябрь, осень</p>'
-	+ '<img src="images/03.jpg" alt="Autumn">');
+	+ '<img src="images/04.jpg" alt="Autumn">');
 	break;
 	case m <= 31 * 12:
 	document.write ('<p>День ' + m + ' - Декабрь, зима</p>'
@@ -84,9 +84,9 @@ let img = [
 	'<img src="images/03.jpg" alt="Summer">', 
 	'<img src="images/03.jpg" alt="Summer">', 
 	'<img src="images/03.jpg" alt="Summer">', 
-	'<img src="images/03.jpg" alt="Autumn">', 
-	'<img src="images/03.jpg" alt="Autumn">', 
-	'<img src="images/03.jpg" alt="Autumn">', 
+	'<img src="images/04.jpg" alt="Autumn">', 
+	'<img src="images/04.jpg" alt="Autumn">', 
+	'<img src="images/04.jpg" alt="Autumn">', 
 	'<img src="images/01.jpg" alt="Winter">'
 ];
 
